@@ -1,10 +1,11 @@
 import "./App.css";
+import Weather from "./Weather";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1 className="App-header">Weather App</h1>
+        <Weather />
         <footer>
           This project is created by Katie Shepard and is open sourced on{" "}
           <a
