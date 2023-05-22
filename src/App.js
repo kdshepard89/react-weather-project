@@ -1,19 +1,37 @@
-import "./App.css";
+import React from "react";
 import Weather from "./Weather";
+import "./App.css";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather defaultCity="knoxville" />
+        <Weather defaultCity="New York" />
+
         <footer>
-          This project is created by Katie Shepard and is open sourced on{" "}
+          This project was coded by{" "}
           <a
-            href="https://github.com/kdshepard89/react-weather-project"
+            href="https://www.delac.io/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
-            GitHub
+            Matt Delac
+          </a>{" "}
+          and is{" "}
+          <a
+            href="https://github.com/wecodeschool/react-weather-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on GitHub
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://suspicious-beaver-111c4d.netlify.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted on Netlify
           </a>
         </footer>
       </div>
